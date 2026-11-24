@@ -1,0 +1,30 @@
+{
+    "public_files": {
+        "name": "Public Files",
+        "content": [
+            "Welcome to the RBAC Simulator",
+            "Public system announcement"
+        ]
+    },
+    "academic_notes": {
+        "name": "Academic Notes",
+        "content": [
+            "Operating Systems - Unit 1",
+            "Computer Networks - Unit 2"
+        ]
+    },
+    "student_records": {
+        "name": "Student Records",
+        "content": [
+            "Student ID: 101 - Marks: 85",
+            "Student ID: 102 - Marks: 90"
+        ]
+    },
+    "system_files": {
+        "name": "System Files",
+        "content": [
+            "System configuration file",
+            "System backup file"
+        ]
+    }
+}
