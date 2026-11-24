@@ -54,5 +54,21 @@
         "resource": "system_files",
         "operation": "delete",
         "status": "ALLOWED"
+    },
+    {
+        "timestamp": "2026-11-24 14:52:48",
+        "username": null,
+        "role": "Unknown",
+        "resource": "academic_notes",
+        "operation": "view",
+        "status": "DENIED"
+    },
+    {
+        "timestamp": "2026-11-24 14:52:51",
+        "username": null,
+        "role": "Unknown",
+        "resource": "public_files",
+        "operation": "view",
+        "status": "DENIED"
     }
 ]
