@@ -1,3 +1,5 @@
+import streamlit as st
+
 from core.authorization import check_permission
 from core.role_manager import get_user_role
 from core.audit_logger import record_activity
@@ -8,6 +10,14 @@ from resources.resource_manager import (
     edit_student_record,
     delete_system_file
 )
+
+def execute_operation(username, resource, operation, **kwargs):
+
+    if not st.session_state.get("authenticated", False):
+        return "ACCESS DENIED: Please login first."
+
+    if st.session_state.get("username") != username:
+        return "ACCESS DENIED: Session user mismatch."
 
 def execute_operation(username, resource, operation, **kwargs):
 
