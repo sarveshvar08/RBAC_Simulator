@@ -1,1 +1,58 @@
-[]
+[
+    {
+        "timestamp": "2026-11-24 14:19:42",
+        "username": "student01",
+        "role": "Student",
+        "resource": "academic_notes",
+        "operation": "view",
+        "status": "ALLOWED"
+    },
+    {
+        "timestamp": "2026-11-24 14:19:42",
+        "username": "student01",
+        "role": "Student",
+        "resource": "system_files",
+        "operation": "delete",
+        "status": "DENIED"
+    },
+    {
+        "timestamp": "2026-11-24 14:24:59",
+        "username": "student01",
+        "role": "Student",
+        "resource": "academic_notes",
+        "operation": "view",
+        "status": "ALLOWED"
+    },
+    {
+        "timestamp": "2026-11-24 14:24:59",
+        "username": "student01",
+        "role": "Student",
+        "resource": "system_files",
+        "operation": "delete",
+        "status": "DENIED"
+    },
+    {
+        "timestamp": "2026-11-24 14:24:59",
+        "username": "faculty01",
+        "role": "Faculty",
+        "resource": "academic_notes",
+        "operation": "upload",
+        "status": "ALLOWED"
+    },
+    {
+        "timestamp": "2026-11-24 14:24:59",
+        "username": "guest01",
+        "role": "Guest",
+        "resource": "student_records",
+        "operation": "view",
+        "status": "DENIED"
+    },
+    {
+        "timestamp": "2026-11-24 14:24:59",
+        "username": "admin01",
+        "role": "Administrator",
+        "resource": "system_files",
+        "operation": "delete",
+        "status": "ALLOWED"
+    }
+]

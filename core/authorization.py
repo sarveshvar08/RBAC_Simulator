@@ -1,12 +1,10 @@
 from utils.data_manager import load_data
+from config.settings import ROLES_FILE
 
 def check_permission(role, permission):
-    #Check whether a role has the requested permission.
 
-    roles = load_data("data/roles.json")
+    roles = load_data(ROLES_FILE)
     if role not in roles:
         return False
-    if permission in roles[role]:
-        return True
 
-    return False
+    return permission in roles[role]
