@@ -1,18 +1,26 @@
 {
     "admin01": {
         "username": "admin01",
-        "role": "Administrator"
+        "role": "Administrator",
+        "salt": "eb282d2ea89e1ee8954ef9119c0e2cdb",
+        "password_hash": "e46e981bde65ca62043641fcf9660277c1b4ed2aa864c45c2a3ee39ee480dbfe"
     },
     "faculty01": {
         "username": "faculty01",
-        "role": "Faculty"
+        "role": "Faculty",
+        "salt": "b114a8615f3a2dbc65ae844189446bd7",
+        "password_hash": "d99766d4fa88d643788f6b8d14d0423fc2d8d493d34d0593454a2c68ed5f9fe7"
     },
     "student01": {
         "username": "student01",
-        "role": "Student"
+        "role": "Student",
+        "salt": "32dbe97ebc72ddbd000ccc4c2f445b5a",
+        "password_hash": "c7ea9f39b8a223833f0c6c6b24cfb7fd74483b935a4087a37b5133394a880ac0"
     },
     "guest01": {
         "username": "guest01",
-        "role": "Guest"
+        "role": "Guest",
+        "salt": "a3889e30d87522495c304e3e28e267ae",
+        "password_hash": "c1075764c89b7fa264fb2a21cfc95f674bfecd780e8c40aaf9cd6007f16d328d"
     }
 }
