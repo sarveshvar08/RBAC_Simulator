@@ -1,1 +1,4 @@
 # Python dependencies
+streamlit
+pandas
+pytest
