@@ -1,26 +1,24 @@
 {
     "Administrator": [
-        "view_public",
-        "view_notes",
-        "upload_notes",
-        "view_student_records",
-        "edit_student_records",
-        "delete_files",
-        "manage_users",
-        "view_logs"
+        "public_files.view",
+        "academic_notes.view",
+        "academic_notes.upload",
+        "student_records.view",
+        "student_records.edit",
+        "system_files.delete"
     ],
     "Faculty": [
-        "view_public",
-        "view_notes",
-        "upload_notes",
-        "view_student_records",
-        "edit_student_records"
+        "public_files.view",
+        "academic_notes.view",
+        "academic_notes.upload",
+        "student_records.view",
+        "student_records.edit"
     ],
     "Student": [
-        "view_public",
-        "view_notes"
+        "public_files.view",
+        "academic_notes.view"
     ],
     "Guest": [
-        "view_public"
+        "public_files.view"
     ]
 }
