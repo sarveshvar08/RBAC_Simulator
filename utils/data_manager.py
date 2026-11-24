@@ -3,7 +3,7 @@ import os
 
 
 def load_data(file_path):
-    """Load data from a JSON file."""
+    #Load data from a JSON file.
 
     if not os.path.exists(file_path):
         return {}
@@ -13,7 +13,7 @@ def load_data(file_path):
 
 
 def save_data(file_path, data):
-    """Save data into a JSON file."""
+    #Save data into a JSON file.
 
     with open(file_path, "w") as file:
         json.dump(data, file, indent=4)
