@@ -22,49 +22,37 @@ allowed = sum(
     1 for log in logs
     if log.get("status") == "ALLOWED"
 )
-
 denied = sum(
     1 for log in logs
     if log.get("status") == "DENIED"
 )
 
 col1, col2, col3, col4 = st.columns(4)
-
 col1.metric("Total Users", total_users)
 col2.metric("Total Roles", total_roles)
 col3.metric("Access Granted", allowed)
 col4.metric("Access Denied", denied)
-
 st.divider()
-
 st.subheader("Registered Users")
 
 if users:
-
     user_data = []
-
     for username, details in users.items():
-
         user_data.append({
             "Username": username,
             "Role": details["role"]
         })
-
     st.dataframe(
         user_data,
         use_container_width=True
     )
-
 else:
-
     st.info("No users registered.")
 
 st.divider()
-
 st.subheader("Recent Security Activity")
 
 if logs:
-
     st.dataframe(
         logs[-10:][::-1],
         use_container_width=True
