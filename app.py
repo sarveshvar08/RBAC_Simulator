@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st 
 
 from core.authentication import authenticate_user
 from core.role_manager import get_user_role
@@ -11,7 +11,6 @@ st.set_page_config(
 
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
-
 if "username" not in st.session_state:
     st.session_state.username = None
 
