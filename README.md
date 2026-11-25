@@ -24,7 +24,7 @@ A Python-based Operating Systems project that demonstrates how role-based author
 - Audit records for allowed and denied access attempts.
 - Streamlit pages for dashboard, user management, permissions, access simulation, resources and logs.
 
-**Implementation note:** Treat this list as the intended project feature set. Before submission, verify that every feature is implemented and protected in the final code. In particular, enforce administrator-only actions and authorization inside backend functions—not only in the Streamlit interface.
+**Implementation note:** Treat this list as the intended project feature set. Before submission, verify that every feature is implemented and protected in the final code. In particular, enforce administrator-only actions and authorization inside backend functions-not only inside the Streamlit interface.
 
 ## Architecture
 
